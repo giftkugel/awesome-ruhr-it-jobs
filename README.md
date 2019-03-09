@@ -12,4 +12,4 @@ It's a [React](https://reactjs.org/) based application. All data is stored in `d
 ## Get a nice job!
 Have fun finding a good job! :smiley:
 
-Share this list on Twitter, or somewhere else,, so more persons can get the list and get the right job!
+Share this list on Twitter, or somewhere else, so more persons can get the list and get the right job!
