@@ -12,4 +12,4 @@ It's a [React](https://reactjs.org/) based application. All data is stored in `d
 ## Get a nice job!
 Have fun finding a good job! :smiley:
 
-Share this list on Twitter, or somewhere else, so more persons can get the list and get the right job!
+Share this list on <a href="https://twitter.com/home?status=Looking%20for%20a%20job?%0A%0Ahttps%3A//giftkugel.github.io/awesome-ruhr-it-jobs/%0A%0A%23java%20%23javascript%20%23it%20%23devops%20%23germany%20%23ruhrgebiet%20%23ruhrpott%20%23awesomelist">Twitter</a>, or somewhere else, so more persons can get the list and get the right job!
