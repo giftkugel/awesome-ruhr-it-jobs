@@ -309,6 +309,17 @@ const awesome = [
         name: "Smart Mechatronics",
         url: "https://jobs.smartmechatronics.de/",
         locations: ["Dortmund"],
+    },
+    {
+        name: "Materna SE",
+        url: "https://www.materna.de/DE/Karriere/karriere_node.html",
+        locations: ["Dortmund"],
+        tags: ["java", "javascript", "frontend", "backend"]
+    },
+    {
+        name: "Karakun AG",
+        url: "https://dev.karakun.com/you-at-karakun/",
+        locations: ["Dortmund"],
+        tags: ["java", "javascript", "frontend", "backend", "javafx"]
     }
-
 ];
