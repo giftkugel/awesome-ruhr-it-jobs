@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Awesome Ruhr IT Jobs!</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="root"></div>
+        <script src="data.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react@16.8.4/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16.8.4/umd/react-dom.production.min.js"></script>
+        <script type="text/babel">
+            awesome.sort((a, b) => {
+                const nameA = a.name.toUpperCase(); // Groß-/Kleinschreibung ignorieren
+                const nameB = b.name.toUpperCase(); // Groß-/Kleinschreibung ignorieren
+                if (nameA < nameB) {
+                    return -1;
+                }
+                if (nameA > nameB) {
+                    return 1;
+                }
+                return 0;
+            });
+            const Entry = ({id, color, name, url, locations, tags}) => {
+                let workLocations = locations || [];
+                const locationEntries = workLocations.map((entry, index) => <span class="badge badge-secondary mr-1 float-right">{entry}</span>);
+
+                let workTags = tags || [];
+                const tagEntries = workTags.map((entry, index) => <span class="badge badge-pill badge-info mr-1">{entry}</span>);
+
+                return (
+                    <li key={id} class="list-group-item">
+                        <div>
+                            <div><a href={url} target="_blank" rel="noopener" class="mr-1">{name}</a>{locationEntries}</div>
+                            <div>
+                                {tagEntries}
+                            </div>
+                        </div>
+                    </li>
+                );
+            }
+
+            const Navbar = ({title}) => {
+                return (
+                    <nav class="navbar navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#">{title}</a>
+                    </nav>
+                )
+            }
+
+            const Footer = () => {
+                return (
+                    <footer class="bg-dark py-3">
+                        <div class="container">
+                            <div class="row">
+                                <a class="text-monospace text-light" href="https://github.com/giftkugel/awesome-ruhr-jobs" target="_blank" rel="noopener">https://github.com/giftkugel/awesome-ruhr-jobs</a>
+                            </div>
+                        </div>
+                    </footer>
+                )
+            }
+
+            const Jumbotron = () => {
+                return (
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-4">Awesome jobs related to</h1>
+                            <p class="lead">Computer science, Information technology, Software development and architecture</p>
+                        </div>
+                    </div>
+                );
+            }
+
+            const App = ({list}) => {
+                const [filter, setFilter] = React.useState(0);
+                const entries = list
+                    .filter(entry => {
+                        if (filter) {
+                            const filters = filter.split(',');
+                            let result = false;
+                            filters.forEach(filterEntry => {
+                                result |= entry.name.toLowerCase().includes(filterEntry.trim().toLowerCase())
+                                    || entry.locations && entry.locations.filter(location => location.toLowerCase().includes(filterEntry.trim().toLowerCase())).length > 0
+                                    || entry.tags && entry.tags.filter(tag => tag.toLowerCase().includes(filterEntry.trim().toLowerCase())).length > 0;
+                            });
+                            return result;
+                        } else {
+                            return true;
+                        }
+                    }).map((entry, index) => <Entry id={index} {...entry} />);
+                return (
+                    <React.Fragment>
+                        <Navbar title="Awesome Ruhr IT Jobs" />
+                        <main class="container my-3">
+                            <Jumbotron />
+                            <p class="font-italic">Missing a cool company? Contribute on <a class="text-monospace" href="https://github.com/giftkugel/awesome-ruhr-jobs" target="_blank" rel="noopener">https://github.com/giftkugel/awesome-ruhr-jobs</a> </p>
+                            <form>
+                                <div class="form-group">
+                                    <label for="search">Search</label>
+                                    <input type="text" class="form-control" id="search" placeholder="Name, Location or Tag" onChange={(event) => setFilter(event.target.value) } />
+                                </div>
+                            </form>
+                            <ul class="list-group">
+                                {entries}
+                            </ul>
+                        </main>
+                        <Footer />
+                    </React.Fragment>
+                );
+            }
+
+            ReactDOM.render(
+                <App list={awesome} />,
+                document.getElementById('root')
+            );
+        </script>
+    </body>
+</html>
