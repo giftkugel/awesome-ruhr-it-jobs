@@ -1,4 +1,4 @@
-# awesome-ruhr-jobs
+# awesome-ruhr-it-jobs
 [Awesome Ruhr IT Jobs](https://giftkugel.github.io/awesome-ruhr-it-jobs/)
 
 A curated list of employers for software developers and technology freaks in the German Ruhr area. :blush:
