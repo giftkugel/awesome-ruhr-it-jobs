@@ -321,5 +321,11 @@ const awesome = [
         url: "https://dev.karakun.com/you-at-karakun/",
         locations: ["Dortmund"],
         tags: ["java", "javascript", "frontend", "backend", "javafx"]
+    },
+    {
+        name: "Neopoly GmbH",
+        url: "https://neopoly.de/jobs/",
+        locations: ["Bochum"],
+        tags: ["ruby", "javascript", "frontend", "backend", "unity"]
     }
 ];
