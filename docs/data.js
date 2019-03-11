@@ -327,5 +327,10 @@ const awesome = [
         url: "https://neopoly.de/jobs/",
         locations: ["Bochum"],
         tags: ["ruby", "javascript", "frontend", "backend", "unity"]
+    },
+    {
+        name: "GBTEC Software + Consulting AG",
+        url: "https://www.gbtec.de/de/karriere/karriere-bei-gbtec/",
+        locations: ["Bochum"]
     }
 ];
