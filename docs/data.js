@@ -332,5 +332,25 @@ const awesome = [
         name: "GBTEC Software + Consulting AG",
         url: "https://www.gbtec.de/de/karriere/karriere-bei-gbtec/",
         locations: ["Bochum"]
+    },
+    {
+        name: "Avarto Bertelsmann",
+        url: "https://www.arvato.com/de/karriere.html",
+        locations: ["Dortmund"]
+    },
+    {
+        name: "Open Knowledge",
+        url: "https://www.openknowledge.de/karriere/",
+        locations: ["Essen"]
+    },
+    {
+        name: "rku.it",
+        url: "https://www.rku-it.de/karriere/",
+        locations: ["Herne"]
+    },
+    {
+        name: "Signal Iduna",
+        url: "https://karriere.signal-iduna.de/stellensuche.php",
+        locations: ["Dortmund"]
     }
 ];
