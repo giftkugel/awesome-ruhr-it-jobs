@@ -353,5 +353,11 @@ const awesome = [
         name: "Signal Iduna",
         url: "https://karriere.signal-iduna.de/stellensuche.php",
         locations: ["Dortmund"]
+    },
+    {
+        name: "Storm Reply",
+        url: "https://stormreply.careers",
+        locations: ["Dortmund", "Düsseldorf", "Berlin", "Berlin", "München", "Hamburg"],
+        tags: ["AWS", "Cloud", "fullstack", "backend", "frontend", "container", "serverless", "kubernetes", "microservices"]
     }
 ];
