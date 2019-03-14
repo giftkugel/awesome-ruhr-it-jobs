@@ -294,6 +294,7 @@ const awesome = [
         name: "9elements",
         url: "https://9elements.com/jobs",
         locations: ["Bochum"],
+        tags: ["frontend", "backend", "javascript", "ruby", "elixir", "go", "mobile", "security"]
     },
     {
         name: "GDATA",
