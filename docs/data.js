@@ -353,5 +353,11 @@ const awesome = [
         name: "Signal Iduna",
         url: "https://karriere.signal-iduna.de/stellensuche.php",
         locations: ["Dortmund"]
+    },
+    {
+        name: "5Minds IT-Solutions GmbH & Co. KG",
+        url: "https://5minds.de/career/general_career/",
+        locations: ["Gelsenkirchen"],
+        tags: ["C#", "javascript", "typescript", "frontend", "backend"]
     }
 ];
