@@ -353,5 +353,11 @@ const awesome = [
         name: "Signal Iduna",
         url: "https://karriere.signal-iduna.de/stellensuche.php",
         locations: ["Dortmund"]
+    },
+    {
+        name: "Crosscan GmbH",
+        url: "https://crosscan.com/jobs/",
+        locations: ["Witten"],
+        tags: ["php", "javascript", "typescript", "frontend", "backend"]
     }
 ];
