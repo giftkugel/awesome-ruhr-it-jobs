@@ -355,6 +355,12 @@ const awesome = [
         locations: ["Dortmund"]
     },
     {
+        name: "5Minds IT-Solutions GmbH & Co. KG",
+        url: "https://5minds.de/career/general_career/",
+        locations: ["Gelsenkirchen"],
+        tags: ["C#", "javascript", "typescript", "frontend", "backend"]
+    },
+    {
         name: "Crosscan GmbH",
         url: "https://crosscan.com/jobs/",
         locations: ["Witten"],
