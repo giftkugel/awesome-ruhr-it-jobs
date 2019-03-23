@@ -1,5 +1,11 @@
 const awesome = [
     {
+        name: "Bermuda Digital Studio",
+        url: "https://bdstudio.de/jobs",
+        locations: ["Bochum"],
+        tags: ["VueJS", "Nuxt", "typescript", "Rails", "Go", "Python", "fullstack|frontend|backend", "jamstack", "k8s", "cloudnative"]
+    },
+    {
         name: "Bilstein Group",
         url: "https://www.bilsteingroup.com/karrierewelt/",
         locations: ["Ennepetal"],
