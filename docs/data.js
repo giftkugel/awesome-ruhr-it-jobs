@@ -202,10 +202,11 @@ const awesome = [
         locations: ["Wuppertal"],
     },
     {
-        name: "Reply",
-        url: "https://www.reply.com/de/about/careers/",
+        name: "Storm Reply",
+        url: "https://stormreply.careers",
         locations: ["Dortmund"],
-    },
+        tags: ["AWS", "Cloud", "fullstack", "backend", "frontend", "container", "serverless", "kubernetes", "microservices"]
+    }
     {
         name: "Uniq",
         url: "https://www.un-iq.de/de/jobs/",
