@@ -1,5 +1,11 @@
 const awesome = [
     {
+        name: "Lemonbeat GmbH",
+        url: "https://www.lemonbeat.de/stellenangebote/",
+        locations: ["Dortmund"],
+        tags: ["iot", "elixir", "RabbitMQ", "AMQP", "typescript", "javascript", "C#", ".net", "mono", "embedded linux", "c", "TCP/IP"]
+    },
+    {
         name: "Bermuda Digital Studio",
         url: "https://bdstudio.de/jobs",
         locations: ["Bochum"],
