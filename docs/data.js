@@ -212,7 +212,7 @@ const awesome = [
         url: "https://stormreply.careers",
         locations: ["Dortmund"],
         tags: ["AWS", "Cloud", "fullstack", "backend", "frontend", "container", "serverless", "kubernetes", "microservices"]
-    }
+    },
     {
         name: "Uniq",
         url: "https://www.un-iq.de/de/jobs/",
