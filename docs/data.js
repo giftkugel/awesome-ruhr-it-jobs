@@ -378,5 +378,11 @@ const awesome = [
         url: "https://crosscan.com/jobs/",
         locations: ["Witten"],
         tags: ["php", "javascript", "typescript", "frontend", "backend"]
+    },
+    {
+        name: "Dematic GmbH",
+        url: "https://www.dematic.com/de-de/ueber/karriere",
+        locations: ["Münster"],
+        tags: ["java", "sap"]
     }
 ];
