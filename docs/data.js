@@ -191,6 +191,7 @@ const awesome = [
         name: "Comcave College",
         url: "https://comcave-karriere.de/",
         locations: ["Dortmund"],
+        tags: ["frontend", "backend","javascript","java","container","microservices"]
     },
     {
         name: "Ortis",
