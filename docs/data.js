@@ -385,5 +385,10 @@ const awesome = [
         url: "https://www.dematic.com/de-de/ueber/karriere",
         locations: ["Münster"],
         tags: ["java", "sap"]
+    },
+    {
+        name: "Conciso GmbH",
+        url: "https://conciso.de/jobs/",
+        locations: ["Dortmund"]
     }
 ];
