@@ -390,5 +390,10 @@ const awesome = [
         name: "Conciso GmbH",
         url: "https://conciso.de/jobs/",
         locations: ["Dortmund"]
+    },
+    {
+        name: "Vanderlande Industries GmbH",
+        url: "https://careers.vanderlande.com/de/",
+        locations: ["Dortmund"]
     }
 ];
