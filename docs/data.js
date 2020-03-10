@@ -397,12 +397,10 @@ const awesome = [
         locations: ["Dortmund"]
     },
 	{
-
         name: "eck*cellent IT GmbH",
         url: "https://eckcellent-it.de/jobs/",
         locations: ["Dortmund", "Braunschweig"],
-        tags: "Java", "Java EE", "JavaScript", "Frontend", "Backend", "C", "C++", "C#",  "automotive"
-
+        tags: ["java", "c", "c++", "c#",  "react", "html5", "agil", "cloud", "container", "microservices", "devops", "docker", "ausbildung", "fachinformatiker"]
     },
 
 	
