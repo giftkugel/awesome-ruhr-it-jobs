@@ -395,5 +395,13 @@ const awesome = [
         name: "Vanderlande Industries GmbH",
         url: "https://careers.vanderlande.com/de/",
         locations: ["Dortmund"]
-    }
+    },
+	{
+        name: "eck*cellent IT GmbH",
+        url: "https://eckcellent-it.de/jobs/",
+        locations: ["Dortmund", "Braunschweig"],
+        tags: ["java", "c", "c++", "c#",  "react", "html5", "agil", "cloud", "container", "microservices", "devops", "docker", "ausbildung", "fachinformatiker"]
+    },
+
+	
 ];
