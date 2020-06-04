@@ -396,12 +396,15 @@ const awesome = [
         url: "https://careers.vanderlande.com/de/",
         locations: ["Dortmund"]
     },
-	{
+    {
         name: "eck*cellent IT GmbH",
         url: "https://eckcellent-it.de/jobs/",
         locations: ["Dortmund", "Braunschweig"],
         tags: ["java", "c", "c++", "c#",  "react", "html5", "agil", "cloud", "container", "microservices", "devops", "docker", "ausbildung", "fachinformatiker"]
     },
-
-	
+    {
+        name: "PROSOZ Herten GmbH",
+        url: "https://www.prosoz.de/karriere-prosoz/karriere.html?L=0",
+        locations: ["Herten"]
+    }
 ];
