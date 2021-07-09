@@ -401,5 +401,11 @@ const awesome = [
         name: "PROSOZ Herten GmbH",
         url: "https://www.prosoz.de/karriere-prosoz/karriere.html?L=0",
         locations: ["Herten"]
+    },
+    {
+        name: "SPITCH",
+        url: "https://www.spitch.live/jobs/",
+        locations: ["Dortmund"],
+        tags: ["frontend", "backend", "elixir", "flutter", "dart", "rust", "go", "daily-fantasy-sports", "devops"]
     }
 ];
