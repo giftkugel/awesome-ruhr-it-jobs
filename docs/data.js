@@ -88,11 +88,6 @@ const awesome = [
         locations: ["Waltrop"], 
     },
     {
-        name: "OpusCapita",
-        url: "https://www.opuscapita.de/karriere/offene-positionen",
-        locations: ["Dortmund"],
-    },
-    {
         name: "Nubizz",
         url: "http://www.nubizz.de/karriere/index.html",
         locations: ["Dortmund"],
