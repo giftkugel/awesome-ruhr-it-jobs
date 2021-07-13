@@ -406,5 +406,10 @@ const awesome = [
         name: "PROSOZ Herten GmbH",
         url: "https://www.prosoz.de/karriere-prosoz/karriere.html?L=0",
         locations: ["Herten"]
+    },
+    {
+        name: "com2m GmbH",
+        url: "https://com2m.de/karriere-bei-com2m/",
+        locations: ["Dortmund"]
     }
 ];
