@@ -407,5 +407,10 @@ const awesome = [
         url: "https://www.spitch.live/jobs/",
         locations: ["Dortmund"],
         tags: ["frontend", "backend", "elixir", "flutter", "dart", "rust", "go", "daily-fantasy-sports", "devops"]
+    },
+    {
+        name: "com2m GmbH",
+        url: "https://com2m.de/karriere-bei-com2m/",
+        locations: ["Dortmund"]
     }
 ];
